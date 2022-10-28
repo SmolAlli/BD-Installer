@@ -1,6 +1,6 @@
-import logs from "../stores/logs";
-import {progress, status} from "../stores/installation";
-import {remote, shell} from "electron";
+
+import {progress/* , status*/} from "../stores/installation";
+import {remote/* , shell*/} from "electron";
 import {promises as fs} from "fs";
 import path from "path";
 import phin from "phin";
